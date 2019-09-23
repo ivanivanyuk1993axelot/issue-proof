@@ -1,0 +1,12 @@
+<ng-template #templateRef>
+  <div
+    mat-dialog-content
+  >
+    <ng-content select=".content"></ng-content>
+  </div>
+</ng-template>
+
+<button
+  (click)="openModal()"
+  mat-button
+>Open modal</button>
